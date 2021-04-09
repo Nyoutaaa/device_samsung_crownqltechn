@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
-# Inherit from starqltechn device
-$(call inherit-product, device/samsung/starqltechn/device.mk)
+# Inherit from crownqltechn device
+$(call inherit-product, device/samsung/crownqltechn/device.mk)
 
 # Inherit some common AOSPK stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
