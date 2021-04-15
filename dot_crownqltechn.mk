@@ -22,11 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from crownqltechn device
 $(call inherit-product, device/samsung/crownqltechn/device.mk)
 
-# Inherit some common AOSPK stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common DotOS stuff
+$(call inherit-product, vendor/dot/config/common.mk)
+
+# DotOS Official
+DOT_OFFICIAL := true
 
 # Device identifier
-PRODUCT_NAME := aosp_crownqltechn
+PRODUCT_NAME := dot_crownqltechn
 PRODUCT_DEVICE := crownqltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N9600

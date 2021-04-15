@@ -16,9 +16,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_crownqltechn.mk
+    $(LOCAL_DIR)/dot_crownqltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	aosp_crownqltechn-user \
-	aosp_crownqltechn-userdebug \
-	aosp_crownqltechn-eng
+	dot_crownqltechn-user \
+	dot_crownqltechn-userdebug \
+	dot_crownqltechn-eng
